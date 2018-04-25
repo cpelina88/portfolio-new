@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Email from './img/envelope.png';
 import GitIcon from './img/github.png';
+import LinkedinIcon from './img/linkedin-logo.png'
+import HackerIcon from './img/HackerRank_logo.png'
 import './Navbar.css';
 
 
@@ -16,7 +18,12 @@ class Navbar extends Component {
           <a href='https://github.com/cpelina88'>
             <img className="icon" src={GitIcon} alt="GitHub Icon"/>
           </a>
-          <p>phone</p>
+          <a href='https://www.linkedin.com/in/cameron-pelina-2a1a15152/'>
+            <img className="icon" src={LinkedinIcon} alt="Linkedin Icon"/>
+          </a>
+          <a href='https://www.hackerrank.com/cpelina88'>
+            <img className="icon" src={HackerIcon} alt="HackerRank Icon"/>
+          </a>
         </div>
       </div>
     );

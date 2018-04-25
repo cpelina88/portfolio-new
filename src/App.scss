@@ -43,12 +43,19 @@ a {
   text-decoration: none;
 }
 
-img {
+.thumbnail {
   object-fit: cover;
   width: 100px;
   height: 100px;
   float: left;
   padding-right: 15px;
+}
+
+.icon {
+  object-fit: cover;
+  width: 16px;
+  height: 16px;
+  padding-left: 10px;
 }
 
 .desc {
@@ -93,7 +100,7 @@ img {
     text-decoration: none;
   }
   
-  img {
+  .thumbnail {
     object-fit: cover;
     width: 100px;
     height: 100px;
@@ -101,6 +108,13 @@ img {
     padding-right: 15px;
   }
   
+  .icon {
+    object-fit: cover;
+    width: 16px;
+    height: 16px;
+    padding-left: 10px;
+  }
+
   .desc {
     display: inline;  
   }

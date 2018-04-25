@@ -20,19 +20,19 @@ class App extends Component {
           <div className="projects">
             <div className="project">
               <a href="http://hackathon1-env.peaw4jqmsw.us-west-2.elasticbeanstalk.com/">
-                <img src={wooord} alt="Wooord App"/>
+                <img className="thumbnail" src={wooord} alt="Wooord App"/>
                 <p className='desc'>A word association guessing game application built using Bootstrap and Recat.</p>
               </a>
             </div>
             <div className="project">
               <a href="https://cp-change-calculator.herokuapp.com/">
-                <img src={change} alt="Change Calculator App"/>
+                <img className="thumbnail" src={change} alt="Change Calculator App"/>
                 <p className='desc'>An application built using React that calculates exact change for USD transactions, including the most efficient denominations.</p>
               </a>
             </div>
             <div className="project">
               <a href="https://cp-weather-app.herokuapp.com/">
-                <img src={weather} alt="Weather App"/>
+                <img className="thumbnail" src={weather} alt="Weather App"/>
                 <p className='desc'>An application built using React and public APIs that retrieves real time weather statistics in any given city name throughout the world.  This application also keeps a log of your search history.</p>
               </a>
             </div>

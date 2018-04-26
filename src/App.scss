@@ -41,6 +41,7 @@
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 .thumbnail {
@@ -49,6 +50,7 @@ a {
   height: 100px;
   float: left;
   padding-right: 15px;
+  border-radius: 5px 5px 5px 5px;
 }
 
 .artThumbnail {
@@ -58,6 +60,7 @@ a {
   float: left;
   padding-right: 15px;
   padding-bottom: 15px;
+  border-radius: 5px 5px 5px 5px;
 }
 
 .icon {
@@ -112,6 +115,7 @@ a {
   }
   a {
     text-decoration: none;
+    color: black;
   }
   
   .thumbnail {
@@ -120,15 +124,17 @@ a {
     height: 100px;
     float: left;
     padding-right: 15px;
+    border-radius: 5px 5px 5px 5px;
   }
 
   .artThumbnail {
     object-fit: cover;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     float: left;
     padding-right: 15px;
     padding-bottom: 15px;
+    border-radius: 5px 5px 5px 5px;
   }
   
   .icon {

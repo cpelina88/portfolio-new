@@ -12,9 +12,17 @@
   max-width: 30% !important;
 }
 
+.resumeLink {
+  font-size: 14px
+}
+
 @media screen and (min-width: 768px) {
   .profilePic {
     min-width: 120px !important;
     max-width: 70% !important;
-  } 
+  }
+  
+  .resumeLink {
+    font-size: 14px
+  }
 }

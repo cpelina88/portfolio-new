@@ -4,6 +4,7 @@ import GitIcon from './img/github.png';
 import LinkedinIcon from './img/linkedin-logo.png';
 import HackerIcon from './img/HackerRank_logo.png';
 import ResumePic from './img/resumepic.png';
+import Resume from './files/resume.png';
 import './Navbar.css';
 
 
@@ -26,6 +27,9 @@ class Navbar extends Component {
           <a href='https://www.hackerrank.com/cpelina88'>
             <img className="icon" src={HackerIcon} alt="HackerRank Icon"/>
           </a>
+          <p>
+            <a className="resumeLink" href={Resume} download>Download Resume</a>
+          </p>
         </div>
       </div>
     );

@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import Email from './img/envelope.png';
 import GitIcon from './img/github.png';
-import LinkedinIcon from './img/linkedin-logo.png'
-import HackerIcon from './img/HackerRank_logo.png'
+import LinkedinIcon from './img/linkedin-logo.png';
+import HackerIcon from './img/HackerRank_logo.png';
+import ResumePic from './img/resumepic.png';
 import './Navbar.css';
 
 
@@ -11,6 +12,7 @@ class Navbar extends Component {
     return (
       <div className="navbar">
         <div className="info">
+          <img className="profilePic" src={ResumePic} alt="Profile"/>
           <h4>Cameron Pelina</h4>
           <a href='mailto:cpelina88@gmail.com'>
             <img src={Email} alt="Email icon"/>

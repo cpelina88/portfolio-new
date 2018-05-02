@@ -41,6 +41,7 @@
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 .thumbnail {
@@ -49,6 +50,17 @@ a {
   height: 100px;
   float: left;
   padding-right: 15px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.artThumbnail {
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+  float: left;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  border-radius: 5px 5px 5px 5px;
 }
 
 .icon {
@@ -71,6 +83,12 @@ a {
 .project {
   min-width: 47%;
   padding-bottom: 15px;
+}
+
+.artworks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 @keyframes App-logo-spin {
@@ -98,6 +116,7 @@ a {
   }
   a {
     text-decoration: none;
+    color: black;
   }
   
   .thumbnail {
@@ -106,6 +125,17 @@ a {
     height: 100px;
     float: left;
     padding-right: 15px;
+    border-radius: 5px 5px 5px 5px;
+  }
+
+  .artThumbnail {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px 5px 5px 5px;
   }
   
   .icon {
@@ -127,6 +157,12 @@ a {
   .content {
     text-align: left;
     width: 75%;
+  }
+
+  .artworks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
   }
   
 }

@@ -4,9 +4,9 @@ import Navbar from './Navbar.js';
 import wooord from './img/wooord.png';
 import change from './img/change.png';
 import weather from './img/weather.png';
-import Art1 from './img/art1.png';
-import Art2 from './img/art2.jpg';
-import Art3 from './img/art3.jpg';
+import Vi from './img/vi.png';
+import Harpy from './img/harpy.png';
+import Riven from './img/riven.png';
 import Tiefling from './img/tiefling.png';
 
 class App extends Component {
@@ -45,16 +45,16 @@ class App extends Component {
           <h4>ARTWORK</h4>
           <div className='artworks'>
           <a target="_blank" href={Tiefling}>
-            <img className="artThumbnail" src={Tiefling} alt="art"/>
+            <img className="artThumbnail" src={Tiefling} alt="Tiefling Artwork"/>
           </a>
-          <a target="_blank" href={Art1}>
-            <img className="artThumbnail" src={Art1} alt="art"/>
+          <a target="_blank" href={Harpy}>
+            <img className="artThumbnail" src={Harpy} alt="Harpy Artwork"/>
           </a>
-          <a target="_blank" href={Art2}>
-            <img className="artThumbnail" src={Art2} alt="art"/>
+          <a target="_blank" href={Riven}>
+            <img className="artThumbnail" src={Riven} alt="Riven Artwork"/>
           </a>
-          <a target="_blank" href={Art3}>
-            <img className="artThumbnail" src={Art3} alt="art"/>
+          <a target="_blank" href={Vi}>
+            <img className="artThumbnail" src={Vi} alt="Vi Artwork"/>
           </a>
           </div>
         </div>
